@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.co/apk/res/android"
+    xmlns:android2="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android2:layout_width="match_parent"
+    android2:layout_height="match_parent"
+    android2:gravity="center"
+    android2:maxHeight="200dp"
+    android2:minHeight="200dp"
+    android2:orientation="vertical"
+    android:background="@color/background"
+    tools:context=".Splash_Screen"
+    tools:ignore="ExtraText,MissingPrefix,NamespaceTypo,UseCompoundDrawables">
+
+
+    <ImageView
+        android2:layout_width="200dp"
+        android2:layout_height="200dp"
+        android2:src="@drawable/icons"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android2:layout_width="wrap_content"
+        android2:layout_height="wrap_content"
+        android2:layout_marginTop="40dp"
+        android2:freezesText="true"
+        android2:text="Unit Converter\n by Ishu"
+        android2:textAlignment="center"
+        android2:textAllCaps="true"
+        android2:textSize="32sp"
+        android2:textStyle="bold"
+        android:id="@+id/tv_text"
+        android:textColor="@color/textColor"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
